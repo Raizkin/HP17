@@ -1,0 +1,22 @@
+.body {
+    font-family: "Montserrat";
+    color: var();
+}
+:root {
+    --eats-color--: #009CBF;
+    --rest-color--: #000000;
+    --nav-color--: #FA4A0C;
+    --title-color--: #ffffff;
+    --subtitle-color--: #737373;
+}
+.header {
+    background-color: var(--title-color--);
+}
+.logo {
+    display: flex;
+    width: 150px;
+flex-shrink: 0;
+}
+.nav-list {
+    display: flex;
+}
